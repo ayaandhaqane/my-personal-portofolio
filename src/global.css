@@ -1,0 +1,640 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=The+Nautigal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap'); 
+
+
+
+
+*{
+  background-color: #112240;
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+    align-items: center;
+    font-family:Arial, sans-serif;
+    max-width: 99%;
+  }
+.Header {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+
+  
+.head {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+
+  }
+ nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a{
+    color: #f4f0f0; /* or any color based on your design */
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+
+}
+.logo {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5em;
+    white-space: nowrap;
+    margin-right: 870px;
+
+  }
+.Code {
+    color:  rgb(157, 60, 146); /* Pink color */
+    font-family: 'damion',sans-serif;
+
+  }
+  
+.with {
+    color: #f1eded; /* Black color */
+    font-family: 'damion',sans-serif;
+
+  }
+  
+.me {
+    color:  rgb(157, 60, 146); /* Dark violet color */
+    font-family: 'damion',sans-serif;
+
+  }
+.profile-section {
+    position: relative;
+    margin-top: -20px; 
+}
+
+.profile-pic {
+    width: 230px; /* Adjust as necessary */
+    height: 230px; /* Adjust as necessary */
+    /* border-radius: 58% 42% 46% 54% / 30% 30% 70% 70% ;
+    transition: border-radius 500ms ease-in-out; */
+    border-radius: 50%;
+    margin-left: 610px;
+    margin-top: 90px; 
+    border: 5px solid #c369d2; /* Adjust border color as necessary */
+    /* Add box-shadow or other styles as needed */
+  }
+  /* .profile-pic:hover{
+    border-radius: 58% 42% 46% 54% / 50% 70% 30% 50% ;
+  } */
+.badge {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: rgb(157, 60, 146); /* or any color you want */
+    color: #f2f7f3;
+    transform: translate(-50%, 60%); /* This centers the badge */
+
+  }
+
+  
+.badge-webflow {
+    top: 70%; /* Align the top edge of the badge to the center of the image */
+    left: 68%; /* Align to the left edge of the image */
+  }
+  
+.badge-design {
+    top: 80%; /* Align the top edge of the badge to the center of the image */
+    right: 53%; /* Align to the right edge of the image */
+    background-color: rgb(91, 44, 178);
+  }
+.banner{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 300px;
+    margin-left: -3%;
+}
+.banner h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+    color: white; 
+    margin-left: 5%;
+    /* margin-right: 370px; */
+ 
+}
+.ayaan{
+  color: rgb(157, 60, 146);
+}
+.banner p{
+    text-align: center;
+    font-size: smaller;
+    /* margin-top: 10%;  */
+    color: white;
+    margin-left: 5%;
+
+
+}
+
+.bio{
+   width: 100%; 
+    height: 600px;
+   margin-top: 120px;
+}
+.bio h1{
+  text-align: center;
+  font-size: large;
+  color: #ebe0e0;
+}
+
+
+/*  about*/
+
+.about-me-container {
+  display: flex;
+  max-width: 1000px;
+  margin-left: 250px;
+  height: 495px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding-top: 100px;
+  background-color: w;
+}
+
+.sidebar {
+  background-color:  rgb(118, 42, 109); /* This is the sidebar color */
+  color: #ffffff;
+  padding: 30px;
+  margin-left: -5px;
+  display: flex;
+  height: 550px;
+  flex-direction: column;
+  align-items: center;
+  width: 25%; /* Adjust the width as needed */
+  margin-top: -10%;
+}
+
+.sidebar h3 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  background: none;
+}
+
+.sidebar p {
+  margin-top: 10px;
+  font-size: 1em;
+  background: none;
+
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -20px;
+  background: none;
+
+}
+
+.social-links img {
+  width: 20px; /* Adjust based on your icon sizes */
+  height: 20px;
+  margin-top: 90px;
+  background: none;
+
+}
+
+.about {
+  background-color: transparent;
+  padding: 30px;
+  width: 65%; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f4eeee;
+}
+
+.about h1 {
+  color: #eef4f5;
+  margin-bottom: 10px;
+  margin-top: -20%;
+}
+
+.about p {
+  color: #f4f4f4;
+  font-size: 1em;
+}
+
+.contact-btn {
+  background-color:  rgb(118, 42, 109);;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  align-self: start;
+}
+
+.contact-btn:hover {
+  background-color: #e5d6e7;
+  color: #000;
+}
+
+.pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 1px; /* Adjust this value to push the image up over the top border */
+  /* border: 4px solid #ffffff; */
+  object-fit: cover;
+  
+}
+
+
+
+/* skils */
+.technologies {
+  color: #ffffff;
+  padding: 2rem;
+  width: 80%; 
+  margin: auto;
+}
+
+.technologies h2 {
+  color: #ffffff; /* Light teal for titles */
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.skill-name,
+.skill-level {
+  color: #a8a8b8; /* Slightly muted text color */
+  font-weight: 500;
+}
+
+.progress-bar-background {
+  background-color: #233554; /* Background of the progress bar */
+  flex-grow: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #64ffda; /* Light teal for the progress bar */
+  height: 10px; /* Set a fixed height for the progress bar */
+  border-radius: 10px;
+  transition: width 0.5s ease; /* Smooth transition for bar width */
+}
+
+@media (max-width: 768px) {
+  .skill-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progress-bar-background {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .skill-level {
+    margin-top: 5px;
+  }
+}
+
+
+ /* skkkkk */
+.sdcontainer{
+  padding: 60px;
+  margin-top: 100px;
+}
+
+.contaner{
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background-color: #6f6bda;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  justify-content: center;
+  margin-left: 695px;
+  margin-top: -100px;
+}
+.paragrph{
+  margin-left: 180px;
+}
+.paragrph p{
+  font-size: 100%;
+  
+}
+h1{
+  font-size: 250%;
+}
+
+.contaner .skills-box{
+  width: 100% ;
+  margin: 25px 0;
+}
+
+.skills-box .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.skills-box .skill-bar{
+  width: 100%;
+  height: 8px;
+  background: rgba(232, 226, 226, 0.1);
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+.skill-bar .skill-per{
+  position: relative;
+  margin-top: -2px;
+  display: flex;
+  height: 100%;
+  border-radius: 6px;
+  width: 90%;
+  background-color: white;
+  animation: progress 0.4 ease-in-out forwards;
+}
+
+
+.skill-per.cshrp{
+  width: 85%;
+}
+.skill-per.java{
+  width: 95%;
+}
+.skill-per.backend{
+  width: 70%;
+}
+
+.skill-per .tooltip{
+  position: absolute;
+  right: -1px;
+  top: -24px;
+  font-size: 9px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #ffffff;
+  
+}
+
+.tooltip::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  height: 10px;
+  width: 10px;
+  background-color: #ffffff;
+  transform:translateY(-50%) rotate(45deg);
+    z-index: -1;
+}
+
+/* project */
+/* PortfolioItem.css */
+
+
+.portfolio-item {
+  /* background: #109450;  */
+  background-color: #31375d00;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.image-container {
+  max-width: 1000%;
+  overflow: hidden; /* Ensure the image doesn't overflow the border-radius */
+}
+
+.portfolio-image {
+  width: 200%;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.1); /* Zoom effect on the image when hovered */
+}
+
+.item-title {
+  color: #fff; /* White text color */
+  margin: 15px 0;
+}
+
+.buttons-container {
+  padding: 10px 0;
+  /* background: #323a46; Slightly darker background for button area */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  background-color: rgb(118, 42, 109); ;
+}
+
+.btn.github:hover {
+  background-color: #e6eaee; /* Darker blue on hover for GitHub button */
+  color: #000;
+}
+
+.btn.live-demo:hover {
+  background-color: #357ab8; /* Darker blue on hover for Live Demo button */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .portfolio-item {
+    margin: 10px 5px; /* Reduce side margins on smaller screens */
+  }
+}
+
+
+/* App.css */
+.App {
+  text-align: center;
+  min-height: 50vh;
+  border-radius: 10px;
+  /* background-color: #282c34; A dark background color */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  margin-top: 200px;
+  margin-left: -5%;
+}
+.App h1{
+  margin-top: -500px;
+  padding-top: 200px;
+  text-align: center;
+  background:none;
+  margin-left: 380%;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  /* padding: 20px; */
+}
+
+
+/* contact */
+.contact {
+  background-color: #ba88cf1a;
+  background: #000e10;
+  color: white;
+  padding: 60px;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-left: -1px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  background: #6e7c7e; /* Adjust background color as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Soft shadow for depth */
+  max-width: 1000px; /* Adjust the width as needed */
+  margin: auto;
+  margin-top: 100px;
+}
+.contact h2{
+  color: #ffffff;
+  margin-bottom: -80px;
+  background:none;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: transparent;
+  width: 150%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.contact-item {
+  /* background-color: transparent; */
+  background-color: #2603351a;
+  
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+}
+.contact-item span{
+  background: none;
+}
+.icon {
+  color:  rgb(118, 42, 109);;
+  /* font-size: 10px; */
+  background-color: #2603351a;
+
+}
+
+.contact-form {
+  flex-grow: 2;
+  background-color: #080808;
+}
+.form-group{
+  flex-direction: column;
+  width: 330px;
+  margin-right: 100px;
+  margin-bottom: -53px;
+  background-color: #080808;
+
+}
+
+.form-group2{
+  flex-direction: column;
+  width: 330px;
+  margin-left: 340px;
+  background-color: #080808;
+
+
+}
+
+.contact-form .form-group1, 
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  margin-bottom: 10px;
+
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #c6c9cd;
+  color: rgb(13, 13, 13);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #0e0e0e;
+}
+
+.contact-form button {
+  background-color: rgb(118, 42, 109); ;
+  color: #f0f2f6;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #f7f1f1; /* Darker shade for hover state */
+  color: #000;
+}
